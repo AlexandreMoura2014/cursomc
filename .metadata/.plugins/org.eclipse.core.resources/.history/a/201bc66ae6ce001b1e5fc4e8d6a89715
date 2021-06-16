@@ -17,14 +17,13 @@ import br.com.alexandremoura.model.Categoria;
 public class CategoriaController {
 	
 	@GetMapping
-	public List<Categoria> listar() {
+	public String listar() {
 		Categoria categoria1 = new Categoria(1L, "Informática");
 		Categoria categoria2 = new Categoria(2L, "Escritório");
-		Categoria categoria3 = new Categoria(3L, "Software");
 		
-		List<Categoria> lista = new ArrayList<>(Arrays.asList(categoria1, categoria2, categoria3));
+		List<Categoria> lista = new ArrayList<>(Arrays.asList(categoria1, categoria2));
 		
-		return lista;
+		return "Listas de categorias";
 	}
 
 }
