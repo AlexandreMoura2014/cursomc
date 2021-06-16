@@ -1,0 +1,6 @@
+package br.com.alexandremoura.resource;
+
+@RestController
+public class CategoriaController {
+
+}
