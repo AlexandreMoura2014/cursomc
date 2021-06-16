@@ -1,0 +1,7 @@
+package br.com.alexandremoura.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface Categorias extends JpaRepository<T, ID> {
+
+}

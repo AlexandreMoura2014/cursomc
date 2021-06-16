@@ -1,0 +1,3 @@
+insert into categoria (id, nome) values (1, 'Informatica');
+insert into categoria (id, nome) values (2, 'Escritório');
+insert into categoria (id, nome) values (3, 'Software');
