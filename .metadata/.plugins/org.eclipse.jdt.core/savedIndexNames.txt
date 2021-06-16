@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+F:\Curso de Java\Udemy\Curso de analise de sistema\protejo\cursomc\.metadata\.plugins\org.eclipse.jdt.core
