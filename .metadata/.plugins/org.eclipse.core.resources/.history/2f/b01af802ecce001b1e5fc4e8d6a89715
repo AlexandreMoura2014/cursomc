@@ -1,0 +1,13 @@
+package br.com.alexandremoura.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.com.alexandremoura.repository.Categorias;
+
+@Servive
+public class CategoriaService {
+	
+	@Autowired
+	private Categorias categorias;
+
+}

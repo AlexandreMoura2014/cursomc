@@ -1,0 +1,16 @@
+package br.com.alexandremoura.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Id;
+
+public class Produto implements Serializable{
+
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	private Long id;
+	private String nome;
+	private Double preco;
+
+}
